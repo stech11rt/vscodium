@@ -2,11 +2,11 @@
 
 set -e
 
-if [[ "${GITHUB_EVENT_NAME}" == "pull_request" ]]; then
+if [[ "${NAME_EVENTS}" == "pull_request" ]]; then
 	echo "It's a PR"
 
 	export SHOULD_DEPLOY="no"
-elif [[ "${GITHUB_EVENT_NAME}" == "push" ]]; then
+elif [[ "${NAME_EVENTS}" == "push" ]]; then
 	echo "It's a Push"
 
 	export SHOULD_DEPLOY="no"
