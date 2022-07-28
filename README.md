@@ -1,11 +1,11 @@
-<div id="vscodium-logo" align="center">
+<!-- remove this id="vscodium-logo">
     <br />
     <img src="./src/resources/linux/code.png" alt="VSCodium Logo" width="200"/>
     <h1>VSCodium</h1>
     <h3>Free/Libre Open Source Software Binaries of VS Code</h3>
 </div>
 
-<div id="badges" align="center">
+<!-- remove this id="badges" align="center">
 
 [![current release](https://img.shields.io/github/release/vscodium/vscodium.svg)](https://github.com/vscodium/vscodium/releases)
 [![license](https://img.shields.io/github/license/VSCodium/vscodium.svg)](https://github.com/VSCodium/vscodium/blob/master/LICENSE)
